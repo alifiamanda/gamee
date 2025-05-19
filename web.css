@@ -1,0 +1,50 @@
+/* Umum */
+body {
+    scroll-behavior: smooth;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #e74c3c;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  /* Section Umum */
+  .section {
+    padding: 60px 20px;
+  }
+  
+  /* Gambar di bagian Tentang */
+  .about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* List cara bermain */
+  ol {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.95rem;
+  }
+  
+  /* Responsif untuk mobile */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 60px 20px;
+    }
+  
+    .section {
+      padding: 40px 15px;
+    }
+  }
+  
